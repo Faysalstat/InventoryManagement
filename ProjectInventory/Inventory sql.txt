@@ -1,0 +1,10 @@
+CREATE DATABASE inventory;
+
+CREATE TABLE Product ( ProductId varchar(25), ProductName varchar(255), CostPrice DOUBLE(6,2 ), SellingPrice DOUBLE(6,2 ), Quantity INT ;
+
+//Some dummy Data
+
+INSERT INTO Product VALUES ('pro001','Lax Beauty soap',50.75,55,60);
+INSERT INTO Product VALUES ('pro002','Meril Beauty soap',51.75,55,20);
+INSERT INTO Product VALUES ('pro003','Sandalina Beauty soap',51.75,55,20);
+
